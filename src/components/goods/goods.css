@@ -1,0 +1,20 @@
+.goodInfoTitle {
+  position: relative;
+  top: 40px;
+}
+.goodInfo {
+  position: relative;
+  top: 200px;
+}
+.goods {
+  position: absolute;
+  height: 120px;
+  width: 200px;
+  top: 120px;
+  left: 55px;
+}
+.pricePlace {
+  position: absolute;
+  left: 20px;
+  top: 410px;
+}

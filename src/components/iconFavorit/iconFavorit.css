@@ -1,0 +1,6 @@
+.heart {
+	position: absolute;
+	left: 85%;
+	top: 5%;
+	transition: 400ms;
+}

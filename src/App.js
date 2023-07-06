@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import IconFavorit from './components/iconFavorit/IconFavorit';
+import Cart from './components/cart/Cart';
+import Good from './components/goods/Good';
+import Compare from './components/compare/CompItem'
+import objGood from './components/goods/makeContent';
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <IconFavorit props={objGood}/>
+      <Cart props={objGood}/>
+      <Good props={objGood} />
+      <Compare />
     </div>
   );
 }

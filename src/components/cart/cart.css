@@ -1,0 +1,6 @@
+.cart {
+	position: absolute;
+	transition: 400ms;
+	left: 85%;
+	top: 85%;
+}
